@@ -1,0 +1,65 @@
+.header{
+    background-color: lightyellow;
+    height: 60px;
+    color: grey;
+}
+.recipe{
+    background-color: rgb(223, 195, 226);
+    width:95%;
+    height: 760px;
+   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+img{
+    width: 350px;
+    height: 350px;
+    border-style: groove;
+    border-color: black;
+    margin-left: -65%;
+    margin-top: 1%;
+}
+.catarea{
+    margin-top: -27%;
+}
+.inst{
+    width:720px;
+    height:240px;
+    margin-left:40% ;
+    background-color:  rgb(168, 136, 142);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 6px;
+}
+.Ingre{
+    width: 720px;
+    height: 250px;
+    margin-left:40% ;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(168, 136, 142);
+    list-style-type: none;
+    
+}
+.recipe-head{
+    margin-left: 30%;
+    margin-bottom: 0%;
+}
+.Ingre-head{
+    margin-left: -10%;
+    margin-bottom: 0%;
+
+}
+.like{
+    padding-top: -18px;
+  float: right;
+  color: black;
+  
+}
+.header a{
+    text-decoration: none;
+    color: gray;
+}
+
+
