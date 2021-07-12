@@ -20,10 +20,10 @@ img{
     margin-left: -65%;
     margin-top: 1%;
 }
-.catarea{
+.category-area{
     margin-top: -27%;
 }
-.inst{
+.instruction{
     width:720px;
     height:240px;
     margin-left:40% ;
@@ -32,7 +32,7 @@ img{
     overflow-y: auto;
     padding-top: 6px;
 }
-.Ingre{
+.Ingredient{
     width: 720px;
     height: 250px;
     margin-left:40% ;
@@ -46,7 +46,7 @@ img{
     margin-left: 30%;
     margin-bottom: 0%;
 }
-.Ingre-head{
+.Ingredient-heading{
     margin-left: -10%;
     margin-bottom: 0%;
 

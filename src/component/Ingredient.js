@@ -1,4 +1,5 @@
 import React from "react";
+import './Ingredient.css';
 
 
 const Ingredient = ({ recipe, ingredientsKeyNames, quantityKeyNames }) => {
@@ -18,7 +19,7 @@ const Ingredient = ({ recipe, ingredientsKeyNames, quantityKeyNames }) => {
 				ing.length !== 0 &&
 					ing !== "ul" &&
 					lstItems.push(
-						<li>
+						<li className="list">
 							{ing} --- {measure}
 						</li>
 					);

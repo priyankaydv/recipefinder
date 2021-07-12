@@ -47,18 +47,18 @@ const Recipe = (recipe) => {
 			</div>
 			{/*above code is for heading purpose and we are using href for redirecting to main source  and we are using material ui material icons i.e."favoritBorderOutline icon" to display the like icon  */}
 			<img src={strMealThumb} alt={strMealThumb} />
-			<div className="catarea">
+			<div className="category-area">
 				<h3><em >Category of Meal: </em>{strCategory}<br /> <em>Area of the Meal:</em> {strArea}</h3>
 			</div>
-			<h3 className="Ingre-head">Ingredients</h3>
-			<div className="Ingre">
+			<h3 className="Ingredient-heading">Ingredients</h3>
+			<div className="Ingredient">
 				<Ingredient
 					recipe={recipe}
 					ingredientsKeyNames={ingredientsKeyNames}
 					quantityKeyNames={quantityKeyNames}
 				/></div>
 			<h3 className="recipe-head">Recipes </h3>
-			<div className="inst">
+			<div className="instruction">
 				<h3>{strInstructions}</h3>
 			</div>
 		</div>
